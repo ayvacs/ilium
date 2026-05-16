@@ -2,6 +2,7 @@
 title: The Theogony of Hesiod
 author: Hesiod
 translator: H. G. Evelyn-White
+source_name: Wikisource
 source_url: https://en.wikisource.org/wiki/Hesiod,_the_Homeric_Hymns_and_Homerica/The_Theogony
 ---
 Hesiod, the Homeric Hymns and Homerica — The Theogony

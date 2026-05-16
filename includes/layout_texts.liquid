@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ title }} on ilium</title>
+        <link rel="stylesheet" href="../texts.css">
+    </head>
+    <body>
+        <table id="metadata">
+            <h1>{{ title }}</h1>
+            <h2>Metadata</h2>
+            <tr>
+                <td>Author</td>
+                <td>{{ author }}</td>
+            </tr>
+            <tr>
+                <td>Translator</td>
+                <td>{{ translator }}</td>
+            </tr>
+            <tr>
+                <td>Source</td>
+                <td><a href="{{ source_url }}">{{ source_name }}</a></td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <div id="content">{{ content }}</div>
+    </body>
+</html>
