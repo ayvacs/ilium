@@ -6,22 +6,25 @@
         <link rel="stylesheet" href="../texts.css">
     </head>
     <body>
-        <table id="metadata">
-            <h1>{{ title }}</h1>
-            <h2>Metadata</h2>
-            <tr>
-                <td>Author</td>
-                <td>{{ author }}</td>
-            </tr>
-            <tr>
-                <td>Translator</td>
-                <td>{{ translator }}</td>
-            </tr>
-            <tr>
-                <td>Source</td>
-                <td><a href="{{ source_url }}">{{ source_name }}</a></td>
-            </tr>
-        </table>
+        <div id="front_matter">
+            <table id="metadata">
+                <h1 id="text_title">{{ title }}</h1>
+                <i id="text_blurb">on <b>ilium</b>, a free archive of ancient texts</i>
+                <h2>Metadata</h2>
+                <tr>
+                    <td><b>Author</b></td>
+                    <td>{{ author }}</td>
+                </tr>
+                <tr>
+                    <td><b>Translator</b></td>
+                    <td>{{ translator }}</td>
+                </tr>
+                <tr>
+                    <td><b>Source</b></td>
+                    <td><a href="{{ source_url }}">{{ source_name }}</a></td>
+                </tr>
+            </table>
+        </div>
 
         <hr>
 

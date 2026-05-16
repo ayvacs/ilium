@@ -1,6 +1,36 @@
+:root {
+    --khaki-beige: #c3a995ff;
+    --dusty-taupe: #ab947eff;
+    --ash-brown: #6f5e53ff;
+    --dusty-taupe-2: #8a7968ff;
+    --chocolate-plum: #593d3bff;
+}
+
+
+body,
+html {
+    background-color: var(--khaki-beige);
+}
+
+
+#front_matter,
+#content {
+    padding: 16px;
+    background-color: var(--dusty-taupe);
+}
+
+
+#text_title,
+#text_blurb {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
 #metadata,
 #metadata tr,
 #metadata td {
     border: 1px solid;
-    padding: 4px;
+    padding: 2px;
 }
