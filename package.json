@@ -1,0 +1,13 @@
+{
+    "name": "ilium",
+    "author": "ayvacs",
+    "description": " the ilium (/ ˈɪliəm /) is the widest and largest region of the hipbone of most vertebrates ",
+    "homepage": "https://github.com/ayvacs/ilium#readme",
+    "bugs": {
+        "url": "https://github.com/ayvacs/ilium/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ayvacs/ilium.git"
+    }
+}
