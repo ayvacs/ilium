@@ -6,15 +6,11 @@ is the widest and largest region of the hipbone of most vertebrates; it is also 
 
 ## installation
 
-<a href="https://nodejs.org/en/download">install npm</a> and use it to install 11ty everywhere:
-
-```
-npm install -g @11ty/eleventy
-```
-
-after that, you can serve it to your local browser:
-
-```
-cd ilium
-eleventy --serve
-```
+<ol>
+    <li><a href="https://nodejs.org/en/download">install npm</a> and navigate to the repository:</li>
+    <pre>cd ilium</pre>
+    <li>serve it to your local browser:</li>
+    <pre>npm run serve</pre>
+    <li>or just build it to <code>/dist</code>:</li>
+    <pre>npm run build</pre>
+</ol>

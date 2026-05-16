@@ -9,5 +9,22 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ayvacs/ilium.git"
+    },
+    "scripts": {
+        "clear_dist": "rimraf dist && mkdir dist",
+        "copy_dir": "copyfiles -u 1 public/**/*.* dist",
+
+        "preserve": "npm run clear_dist",
+        "serve": "npx @11ty/eleventy --serve",
+        "postserve": "npm run copy_dir",
+        
+        "prebuild": "npm run clear_dist",
+        "build": "npx @11ty/eleventy",
+        "postbuild": "npm run copy_dir"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "^3.1.5",
+        "copyfiles": "^2.4.1",
+        "rimraf": "^6.1.3"
     }
 }
