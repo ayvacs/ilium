@@ -14,13 +14,15 @@ html {
 
 
 #front_matter,
-#content {
+#content,
+#all-content-table {
     padding: 16px;
     background-color: var(--dusty-taupe);
 }
 
 
 #text_title,
+#page_title,
 #text_blurb {
     display: inline-block;
     width: 100%;
