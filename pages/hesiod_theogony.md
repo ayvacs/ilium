@@ -1,4 +1,5 @@
 ---
+layout: layout_texts.liquid
 title: The Theogony of Hesiod
 author: Hesiod
 translator: H. G. Evelyn-White
