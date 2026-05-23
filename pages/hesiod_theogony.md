@@ -1,10 +1,17 @@
 ---
 layout: layout_texts.liquid
+
 title: The Theogony of Hesiod
 author: Hesiod
+date_written: 8th-7th century BCE
+
 translator: H. G. Evelyn-White
 source_name: Wikisource
 source_url: https://en.wikisource.org/wiki/Hesiod,_the_Homeric_Hymns_and_Homerica/The_Theogony
+date_translated: 1920
+
+tags:
+    - text
 ---
 <div class="mw-content-ltr" dir="ltr" data-mw-parsoid-version="0.23.0.0-alpha28" data-mw-html-version="2.8.0" lang="en"
     id="calibre_link-1">

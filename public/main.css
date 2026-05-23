@@ -28,9 +28,14 @@ html {
 }
 
 
-#metadata,
-#metadata tr,
-#metadata td {
+table,
+table tr,
+table td {
     border: 1px solid;
     padding: 2px;
+}
+
+#all-content-table {
+    text-align: center;
+    width: 100%;
 }

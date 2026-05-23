@@ -1,2 +1,36 @@
-<p>bello world</p>
-<iframe src="https://giphy.com/embed/MOWPkhRAUbR7i"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ilium - homepage</title>
+        <link rel="stylesheet" href="../main.css">
+    </head>
+    <body>
+        <div id="front_matter">
+            <p>the</p>
+            <h1 id="text_title">ilium (/ ˈɪliəm /)</h1>
+            <p>is the widest and largest region of the hipbone of most vertebrates; it is also a free and open archive of ancient texts</p>
+        </div>
+
+        <hr>
+
+        <table id="all-content-table">
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Date Written</th>
+                <th>Translator</th>
+                <th>Date Translated</th>
+            </tr>
+            {% for text in collections.text %}
+            <tr>
+                <td><a href="{{ text.url }}">{{ text.data.title }}</a></td>
+                <td>{{ text.data.author }}</td>
+                <td>{{ text.data.date_written }}</td>
+                <td>{{ text.data.translator }}</td>
+                <td>{{ text.data.date_translated }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
