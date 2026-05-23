@@ -12,12 +12,11 @@
     },
     "scripts": {
         "clear_dist": "rimraf dist && mkdir dist",
-        "copy_dir": "copyfiles -u 1 public/**/*.* dist",
 
-        "preserve": "npm run clear_dist && npm run copy_dir",
+        "preserve": "npm run clear_dist",
         "serve": "npx @11ty/eleventy --serve",
         
-        "prebuild": "npm run clear_dist && npm run copy_dir",
+        "prebuild": "npm run clear_dist",
         "build": "npx @11ty/eleventy"
     },
     "dependencies": {
