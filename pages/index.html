@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>ilium - homepage</title>
-        <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <div id="front_matter">
@@ -26,7 +26,7 @@
             </tr>
             {% for text in collections.text %}
             <tr>
-                <td><a href="{{ text.url }}">{{ text.data.title }}</a></td>
+                <td><a href="{{ text.url | url }}">{{ text.data.title }}</a></td>
                 <td>{{ text.data.author }}</td>
                 <td>{{ text.data.date_written }}</td>
                 <td>{{ text.data.translator }}</td>

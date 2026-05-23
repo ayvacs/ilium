@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
     });
 
     return {
+        "pathPrefix": "ilium/",
         "dir": {
             "includes": "../includes",
             "input": "pages",
