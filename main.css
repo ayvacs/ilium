@@ -14,13 +14,15 @@ html {
 
 
 #front_matter,
-#content {
+#content,
+#all-content-table {
     padding: 16px;
     background-color: var(--dusty-taupe);
 }
 
 
 #text_title,
+#page_title,
 #text_blurb {
     display: inline-block;
     width: 100%;
@@ -28,9 +30,14 @@ html {
 }
 
 
-#metadata,
-#metadata tr,
-#metadata td {
+table,
+table tr,
+table td {
     border: 1px solid;
     padding: 2px;
+}
+
+#all-content-table {
+    text-align: center;
+    width: 100%;
 }
