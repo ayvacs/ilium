@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
     return {
         "dir": {
             "includes": "../includes",
-            "input": "texts",
+            "input": "pages",
             "output": "dist"
         }
     }
