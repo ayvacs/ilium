@@ -21,6 +21,11 @@ html {
 }
 
 
+#front_matter p {
+    text-align: center;
+}
+
+
 #text_title,
 #page_title,
 #text_blurb {
